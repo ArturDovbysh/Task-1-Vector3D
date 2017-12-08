@@ -1,0 +1,6 @@
+D:\GitHubStorage\Task_1_ArturDovbysh\Task_1_ArturDovbysh\bin\Debug\Task_1_ArturDovbysh.exe.config
+D:\GitHubStorage\Task_1_ArturDovbysh\Task_1_ArturDovbysh\bin\Debug\Task_1_ArturDovbysh.exe
+D:\GitHubStorage\Task_1_ArturDovbysh\Task_1_ArturDovbysh\bin\Debug\Task_1_ArturDovbysh.pdb
+D:\GitHubStorage\Task_1_ArturDovbysh\Task_1_ArturDovbysh\obj\Debug\Task_1_ArturDovbysh.csprojResolveAssemblyReference.cache
+D:\GitHubStorage\Task_1_ArturDovbysh\Task_1_ArturDovbysh\obj\Debug\Task_1_ArturDovbysh.exe
+D:\GitHubStorage\Task_1_ArturDovbysh\Task_1_ArturDovbysh\obj\Debug\Task_1_ArturDovbysh.pdb
