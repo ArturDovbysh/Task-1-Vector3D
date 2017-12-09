@@ -35,6 +35,8 @@ namespace Task_1_ArturDovbysh
         public static int ScalarProduct(Vector3D v1, Vector3D v2)
         {
             //a · b = ax · bx + ay · by + az · bz
+            if(v1 is null || v2 is null)
+                throw new ArgumentNullException();
             return v1.X * v2.X + v1.Y * v2.Y + v1.Z * v2.Z;
         }
 
@@ -47,6 +49,8 @@ namespace Task_1_ArturDovbysh
         public static Vector3D VectorProduct(Vector3D v1, Vector3D v2)
         {
             //a × b = { ay*bz - az*by; az*bx - ax*bz; ax*by - ay*bx}
+            if(v1 is null || v2 is null)
+                throw new ArgumentNullException();
             return new Vector3D(v1.Y * v2.Z - v1.Z * v2.Y, v1.Z * v2.X - v1.X * v2.Z, v1.X * v2.Y - v1.Y * v2.X);
         }
 
@@ -57,8 +61,10 @@ namespace Task_1_ArturDovbysh
         /// <param name="v2">Second vector.</param>
         /// <param name="v3">Third vector.</param>
         /// <returns></returns>
-        public static int MixedProduct(Vector3D v1, Vector3D v2, Vector3D v3) 
+        public static int MixedProduct(Vector3D v1, Vector3D v2, Vector3D v3)
         {
+            if(v1 is null || v2 is null || v3 is null)
+                throw new ArgumentNullException();
             // a*[b x c] = ax*by*cz + ay*bz*cx + az*bx*cy - (az*by*cx + ay*bx*cz + ax*bz*cy)
             return (v1.X*v2.Y*v3.Z) + (v1.Y*v2.Z*v3.X ) + (v1.Z*v2.X*v3.Y) - (v1.Z*v2.Y*v3.X) - (v1.Y*v2.X*v3.Z) - (v1.X*v2.Z*v3.Y);
         }
@@ -72,6 +78,8 @@ namespace Task_1_ArturDovbysh
         public static double AngleOfVectors(Vector3D v1, Vector3D v2)
         {
             //cos α = ScalarProduct(a,b)/(| a |·| b |)
+            if(v1 is null || v2 is null)
+                throw new ArgumentNullException();
             return ScalarProduct(v1,v2)/(v1.GetVectorLength()*v2.GetVectorLength());
         }
 
@@ -141,6 +149,8 @@ namespace Task_1_ArturDovbysh
         /// <returns></returns>
         public static Vector3D operator+(Vector3D v1, Vector3D v2)
         {
+            if(v1 is null || v2 is null)
+                throw new ArgumentNullException();
             return new Vector3D(v1.X + v2.X, v1.Y + v2.Y, v1.Z + v2.Z);
         }
 
@@ -152,6 +162,8 @@ namespace Task_1_ArturDovbysh
         /// <returns></returns>
         public static Vector3D operator-(Vector3D v1, Vector3D v2)
         {
+            if(v1 is null || v2 is null)
+                throw new ArgumentNullException();
             return new Vector3D(v1.X - v2.X, v1.Y - v2.Y, v1.Z - v2.Z);
         }
 
