@@ -4,3 +4,10 @@ D:\GitHubStorage\Task_1_ArturDovbysh\Task_1_ArturDovbysh\bin\Debug\Task_1_ArturD
 D:\GitHubStorage\Task_1_ArturDovbysh\Task_1_ArturDovbysh\obj\Debug\Task_1_ArturDovbysh.csprojResolveAssemblyReference.cache
 D:\GitHubStorage\Task_1_ArturDovbysh\Task_1_ArturDovbysh\obj\Debug\Task_1_ArturDovbysh.exe
 D:\GitHubStorage\Task_1_ArturDovbysh\Task_1_ArturDovbysh\obj\Debug\Task_1_ArturDovbysh.pdb
+D:\Study\GitHub\Task-1-Vector3D\Task_1_ArturDovbysh\bin\Debug\Task_1_ArturDovbysh.exe.config
+D:\Study\GitHub\Task-1-Vector3D\Task_1_ArturDovbysh\bin\Debug\Task_1_ArturDovbysh.exe
+D:\Study\GitHub\Task-1-Vector3D\Task_1_ArturDovbysh\bin\Debug\Task_1_ArturDovbysh.pdb
+D:\Study\GitHub\Task-1-Vector3D\Task_1_ArturDovbysh\obj\Debug\Task_1_ArturDovbysh.csprojResolveAssemblyReference.cache
+D:\Study\GitHub\Task-1-Vector3D\Task_1_ArturDovbysh\obj\Debug\Task_1_ArturDovbysh.csproj.CoreCompileInputs.cache
+D:\Study\GitHub\Task-1-Vector3D\Task_1_ArturDovbysh\obj\Debug\Task_1_ArturDovbysh.exe
+D:\Study\GitHub\Task-1-Vector3D\Task_1_ArturDovbysh\obj\Debug\Task_1_ArturDovbysh.pdb
